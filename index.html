@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lucio Mazzini</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Lucio Mazzini - Frontend Developer passionate about creating captivating web experiences."
+    />
+    <meta name="author" content="Lucio Mazzini" />
+    <meta name="copyright" content="Lucio Mazzini" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/impact" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="./assets/img/favicon.ico" />
+    <script src="./assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="header-links">
+          <li><a href="#home" class="active-link">Home</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#proyects">Proyects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="home-container">
+          <h1>Lucio Mazzini</h1>
+          <p class="job-position">Frontend web developer</p>
+          <hr />
+          <address class="location">Buenos Aires, Argentina</address>
+          <hr />
+          <ul class="skills">
+            <li class="skill"><i class="fa-brands fa-react"></i></li>
+            <li class="skill"><i class="fa-brands fa-sass"></i></li>
+            <li class="skill"><i class="fa-brands fa-bootstrap"></i></li>
+            <li class="skill"><i class="fa-brands fa-figma"></i></li>
+            <li class="skill"><i class="fa-brands fa-git-alt"></i></li>
+          </ul>
+          <ul class="social-media-links">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/lucio-mazzini-1320b1217/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/xSyrax123/"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="github"
+                ><i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="social-media-link"
+                target="_blank"
+                aria-label="download resume"
+                ><i class="fa-solid fa-download"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-me" id="about-me">
+        <div class="about-me-container">
+          <h2>About me</h2>
+          <div class="about-me-wrapper">
+            <div class="about-me-img-container">
+              <img
+                src="./assets/img/programadorx.jpg"
+                alt="lucio-mazzini"
+                class="about-me-img"
+              />
+            </div>
+            <div class="about-me-info">
+              <div class="about-me-info-wrapper">
+                <p>
+                  Hi, my name is Lucio Mazzini, I'm 18 years old, I'm an
+                  electronics technician and a first year student of Systems
+                  Engineering at UTN.
+                </p>
+                <p>
+                  Creative problem solving is my passion and I got into
+                  front-end development a year ago because it is a field that
+                  allows me to easily visualize my ideas in digital form and get
+                  results very quickly.
+                </p>
+                <p>
+                  When I'm not programming I like to read science books. I love
+                  learning about interesting things that are going on around us
+                  that we may not realize. Knowing the how and why of the world
+                  and the universe is one of my passions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proyects" id="proyects">
+        <div class="proyects-container">
+          <h2>Proyects</h2>
+          <div class="proyects-wrapper">
+            <article class="proyect">
+              <img src="./assets/img/tic-tac-toe.PNG" alt="tic-tac-toe" />
+              <div class="card-content">
+                <h3>Tic Tac Toe</h3>
+                <p>Tic Tac Toe game developed in HTML, CSS and JavaScript.</p>
+                <div class="proyect-links">
+                  <a class="proyect-link" href="">View live</a>
+                  <a class="proyect-link" href="">View code</a>
+                </div>
+              </div>
+            </article>
+            <article class="proyect">
+              <img
+                src="./assets/img/product-inventory.PNG"
+                alt="product-inventory"
+              />
+              <div class="card-content">
+                <h3>Product Inventory</h3>
+                <p>
+                  Product Inventory developed with HTML, CSS and JavaScript.
+                </p>
+                <div class="proyect-links">
+                  <a class="proyect-link" href="">View live</a>
+                  <a class="proyect-link" href="">View code</a>
+                </div>
+              </div>
+            </article>
+            <article class="proyect">
+              <img src="./assets/img/typing-test.png" alt="typing-test" />
+              <div class="card-content">
+                <h3>Typing Test</h3>
+                <p>Typing Test developed with HTML, CSS and JavaScript.</p>
+                <div class="proyect-links">
+                  <a class="proyect-link" href="">View live</a>
+                  <a class="proyect-link" href="">View code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-container">
+          <h2>Contact</h2>
+          <form action="" method="POST">
+            <label class="hidden" for="name">Enter name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+            />
+            <label class="hidden" for="email">Enter email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+            />
+            <label class="hidden" for="message">Write a message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your message"
+              rows="6"
+              cols="50"
+            >
+            </textarea>
+  
+            <button type="submit" name="submit" class="send-button">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <a href="#home" class="scroll-top"><i class="fas fa-angle-up"></i></a>
+    </main>
+  </body>
+</html>
